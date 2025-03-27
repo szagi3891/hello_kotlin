@@ -10,7 +10,7 @@ echo "run ..."
 echo ""
 echo ""
 
-java -jar main.jar
+java -jar main.jar dddd aaaa
 
 echo ""
 echo ""
