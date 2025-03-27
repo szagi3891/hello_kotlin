@@ -21,6 +21,12 @@ fun ggg(count: Int): String {
 fun main(args: Array<String>) {
     println("Hello, Kotlin!");
 
+    var text= "Kotlin"
+
+    for (letter in text) {
+        println(letter)
+    }
+
     for (i in 1..3) {
         println("i => $i");
     }
@@ -28,10 +34,7 @@ fun main(args: Array<String>) {
     var language = arrayOf("Ruby", "Kotlin", "Python", "Java")
 
     for (item in language) {
-
-        // printing array elements having even index only
-        if (itemx                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      %2 == 0)
-            println(language)
+        println(item)
     }
 
 //    print("Enter text: ")
